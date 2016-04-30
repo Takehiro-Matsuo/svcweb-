@@ -18,7 +18,8 @@ hoeg
 
 #group li{
     width:1000px;
-    height:350px;
+    height:400px;
+    margin-bottom:100px;
   //  border:#D1FCD6 1px solid;
     overflow:hidden;    
 }
@@ -26,7 +27,7 @@ hoeg
 .grinner {
     padding:85px 70px;
     width:360px;
-    height:350px;
+    height:400px;
     margin:0;
   //  margin-left:10px;
     background-color:#8AF97C;
@@ -89,9 +90,11 @@ hoeg
 
 .grinner .icon a{
     padding-left:30px;
+    margin-right:30px;
+
     border:none;
     
-    background:url(../img/grmark2.png)left no-repeat;
+   
     color:#fff;
 }
 .grinner .icon a:hover{
@@ -102,14 +105,14 @@ hoeg
 .jidou .grinner{
 float:left;
 }
-   
-.jidou{
- //overflow:hidden;    
-}
-
 
 .jidou a{
     float:right;
+}
+
+.jidou .icon a{
+    // background-color:#FFC057;
+     background:url(../img/l_grmark.png)left no-repeat;
 }
 
 /*　白川班　*/
@@ -120,4 +123,47 @@ float:left;
 
 .shirakawa a{
     float:left;
+}
+
+.shirakawa .icon a{
+        background-color:#fff;
+ background:url(../img/r_grmark.png)left no-repeat;
+}
+
+/* 聴言班 */
+.tyogen .grinner{
+float:left;
+}
+
+.tyogen a{
+    float:right;
+}
+.tyogen .icon a{
+   background:url(../img/l_grmark.png)left no-repeat;
+}
+
+/*　保障班　*/
+.hoshou .grinner{
+    float:right;
+     background-color:#FFC057;
+}
+
+.hoshou a{
+    float:left;
+}
+.hoshou .icon a{
+     background-color:#fff;
+     background:url(../img/r_grmark.png)left no-repeat;
+}
+
+/*　生きがい班　*/
+.ikigai .grinner{
+float:left;
+}
+
+.ikigai a{
+    float:right;
+}
+.ikigai .icon a{
+   background:url(../img/l_grmark.png)left no-repeat;
 }
