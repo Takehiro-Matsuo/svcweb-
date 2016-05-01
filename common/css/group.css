@@ -91,11 +91,12 @@ hoeg
 .grinner .icon a{
     padding-left:30px;
     margin-right:30px;
-
+ //margin-left:100px;
     border:none;
     
    
     color:#fff;
+//    color:#000;
 }
 .grinner .icon a:hover{
 	text-decoration:underline;
@@ -126,7 +127,10 @@ float:left;
 }
 
 .shirakawa .icon a{
-        background-color:#fff;
+    // background-color:#fff;
+    // padding-left:80px;
+    margin-left:110px;
+  //   text-align:center;
  background:url(../img/r_grmark.png)left no-repeat;
 }
 
@@ -152,7 +156,7 @@ float:left;
     float:left;
 }
 .hoshou .icon a{
-     background-color:#fff;
+     margin-left:110px;
      background:url(../img/r_grmark.png)left no-repeat;
 }
 
