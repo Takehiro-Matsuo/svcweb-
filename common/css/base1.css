@@ -87,7 +87,7 @@ body{
    // border-top:#cce739 5px solid;
      background-color:#D1FCD6;
      //  position:relative;
-     width:100%;
+     width:1350px;
 
 }
 
@@ -224,8 +224,6 @@ background-color:#fff;
 /* ヘッダー
 ---------------------------*/
 
-
-/*index.html*/
 #header{
 
    // width:1153px;
@@ -246,8 +244,10 @@ opacity: 0.8;
 }
 #header h1 {
     position:absolute;
-    left:200px;
-    top:30%;
+    //left:200px;
+  //  top:30%;
+	left:780px;
+	top:10%;
 color:#fff;
 	//	text-decoration:underline;
 	//text-decoration-color: #8AF97C;
@@ -264,9 +264,9 @@ color:#fff;
 
 #header h2{
 	position:absolute;
-	left:200px;
-	top:63%;
-	font-size:200%;
+	left:280px;
+	top:53%;
+	font-size:250%;
 	//background-color:#8AF97C;
 	color:#fff;
 }
@@ -320,6 +320,53 @@ text-decoration: none;
 }*/
 
 
+/*index.html*/
+
+.inner{
+	width: 1050px;
+	height: 100%;
+	margin:50px;
+	overflow: hidden;
+}
+
+.inner h2{
+
+}
+.inner a{
+
+	text-decoration: none;
+}
+.inner img{
+	opacity: 0.8;
+		display:block;
+}
+
+#igroup {
+	float: left;
+	position: relative;
+	background-color: #000;
+}
+
+#igroup h2{
+	position: absolute;
+	top: 45%;
+	left:38%;
+	font-size:250%;
+}
+
+#shinkan {
+	float: right;
+	position: relative;
+	//margin-right: 0px;
+	background-color: #000;
+}
+
+#shinkan h2{
+	position: absolute;
+	top: 45%;
+	left:38%;
+	font-size:250%;
+}
 
 #noti{
     float:left;
