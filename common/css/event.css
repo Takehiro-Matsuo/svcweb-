@@ -1,0 +1,15 @@
+#event{
+width:1000px;
+height:100%;
+//padding-left:-50px;
+margin-left:-50px;
+
+overflow:hidden;
+//border:#000 1px solid;
+}
+
+#event li{
+float:left;
+margin-left:50px;
+margin-bottom:50px;
+}

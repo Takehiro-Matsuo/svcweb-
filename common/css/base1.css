@@ -33,14 +33,14 @@ ul,ol{
 	list-style-type:none;
 }
 
-/* テーブルセルのボーダーの設定 */ 
+/* テーブルセルのボーダーの設定 */
 table {
-	border-collapse: collapse; 
+	border-collapse: collapse;
 	border-spacing: 0;
 }
 
 /* 画像とフォームパーツの上下位置をテキストの真ん中に */
-img, input, select, textarea { 
+img, input, select, textarea {
 	vertical-align: middle;
 }
 
@@ -88,7 +88,7 @@ body{
      background-color:#D1FCD6;
      //  position:relative;
      width:100%;
-   
+
 }
 
 #wrap{
@@ -114,23 +114,22 @@ body{
 }
 
 #ri_inner{
-//    position:relative;
-  // position:absolute;
-    float:right;    
-  
-    width:1128px;
-    //height:2500px;
-    height:100%;
-    padding:20px;
+    float:right;
+
+    width:1148px;
+		  height:100%;
+    /*height:2500px;
+
+  //  padding:20px;
   //  margin:0 auto;
-   
+
   //  background-color:#E0FDDD;
 //background-color:#9CE159;
 //background-color:#93DF5D;
 //background-color:#B7FDA9;
-//background-color:#E2FDD1;
+//background-color:#E2FDD1;*/
 background-color:#fff;
-     
+
 }
 
 /* グローバルナビゲーション
@@ -142,14 +141,14 @@ background-color:#fff;
    top:0;
    left:0*/
    position:relative;
-  //  left:0;
+  /* left:0;
   //  top:0;
    // border:#fff;
    // background-color:#B7F7AF;
-   //background-color:#84F974;
+   //background-color:#84F974;*/
    background-color:#8AF97C;
     border-right:#D1FCD6 3px solid;
-   height:685px;
+   height:710px;
 }
 
 #gnav h2{
@@ -157,7 +156,7 @@ background-color:#fff;
     position:absolute;
     top:40px;
     left:10px;
-    
+
 }
 #gnav ul{
      //position:absolute;
@@ -228,28 +227,99 @@ background-color:#fff;
 
 /*index.html*/
 #header{
-   
+
    // width:1153px;
-    width:95%;
-    height:665px;
-    margin:0 auto;
-    padding:10px 0;
+    width:100%;
+    height:707px;
+    margin-bottom:40px;
+    //padding:10px 0;
     overflow:hidden;
     position:relative;
-    background-color:#fff;
-    border-bottom:#FDC354 7px dotted;
+    background-color:#000;
+  //  border-bottom:#FDC354 7px dotted;
    // border-top:#00c4ab 5px solid;
    // background:url(../img/topbg.png) all-repeat;
 }
 
-h1 {
+#header img{
+opacity: 0.8;
+}
+#header h1 {
     position:absolute;
     left:200px;
     top:30%;
-    
-    color:#8AF97C;
-    font-size:300%;
+color:#fff;
+	//	text-decoration:underline;
+	//text-decoration-color: #8AF97C;
+//border-bottom: #8AF97C 2px solid;
+    font-size:400%;
 }
+#header h1 p{
+	//color:#fff;
+	//padding-bottom: -20px;
+	//margin: -10px;
+	height: 65px;
+	border-bottom: #8AF97C 4px solid;
+}
+
+#header h2{
+	position:absolute;
+	left:200px;
+	top:63%;
+	font-size:200%;
+	//background-color:#8AF97C;
+	color:#fff;
+}
+
+#header h3{
+	position:absolute;
+	left:480px;
+	top:73%;
+	width: 150px;
+	background-color: rgba(255, 255, 255, .2);
+	border-radius: 18px;
+	//color:#fff;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, .2), inset 0 1px 1px rgba(255, 255, 255, .7);
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, .4);
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+}
+#header h3:hover {
+	background-color: rgba(255, 255, 255, .3);
+}
+
+#header a{
+color:#fff;
+text-decoration: none;
+
+	//opacity: 1.0;
+}
+/*#header p{
+	position:absolute;
+	left:480px;
+	top:73%;
+//background-color:#8AF97C;
+	background-color:#000;
+		opacity: 0.1;
+
+	//border:#8AF97C 2px solid;
+}*/
+
+/*		text-decoration:none;
+	font-size: 150%;
+	//font-weight: bold;
+	color: #fff;
+	//color: #8AF97C;
+}*/
+
+/*#header p:hover{
+	background-color:#fff;
+		opacity: 0.4;
+	//border:#fff 2px solid;
+}*/
+
+
 
 #noti{
     float:left;
@@ -263,11 +333,11 @@ h1 {
 #noti h3{
     padding-bottom:20px;
     border-bottom:#FDC354 4px dotted;
-   
+
     font-size:150%;
-    
+
     color:#000000;
-    
+
 }
 #noti ul{
    // padding:20px;
@@ -278,14 +348,14 @@ overflow:hidden;
     float:left;
     padding:20px;
     border-bottom:#FDF3AA 1px dotted;
-  
+
 }
 
 #noti a{
     color:#8AF97C;
     text-decoration:none;
     font-size:130%;
-    text-align:center;    
+    text-align:center;
 }
 #contact{
     float:right;
@@ -326,7 +396,7 @@ overflow:hidden;
 /* メインコンテンツ
 ---------------------------*/
 #main{
-   
+
    // width:1153px;
     width:100%;
     height:100%;
@@ -381,7 +451,7 @@ overflow:hidden;
 /*アイコンリンク*/
 .icon{
     text-align:right;
-    
+
 }
 
 .icon a{
@@ -471,6 +541,3 @@ overflow:hidden;
 #footer a:hover{
 	text-decoration:underline;
 }
-
-
-
