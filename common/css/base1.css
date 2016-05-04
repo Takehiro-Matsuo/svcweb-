@@ -229,7 +229,7 @@ background-color:#fff;
    // width:1153px;
     width:100%;
     height:707px;
-    margin-bottom:100px;
+    margin-bottom:10px;
     //padding:10px 0;
     overflow:hidden;
     position:relative;
@@ -323,27 +323,32 @@ text-decoration: none;
 /*index.html*/
 
 .inner{
-	width: 1050px;
+//	width: 1050px;
+//width: 100%;
 	height: 100%;
-	margin:50px;
+	//margin:50px;
+	padding: 50px;
+	padding-top: 100px;
 	padding-bottom:30px;
 	margin-bottom: 80px;
 	overflow: hidden;
-	border-bottom: #FDC354 8px dotted;
+//	border-bottom: #FDC354 8px dotted;
+	//background-color: #EFFDEA;
 }
 
 .inner li{
 	position: relative;
-	height: 500px;
+	height: 445px;
 	width: 315px;
 	margin-bottom: 20px;
 	padding-bottom: 20px;
-//	border-bottom: #000 2px solid;
+	border-bottom: #FDC354 4px solid;
 }
 
 .inner img{
 	border-bottom: #FDC354 10px solid;
-	margin-bottom: 40px;
+	//margin-bottom: 40px;
+
 	//opacity: 0.8;
 		//display:block;
 }
@@ -351,14 +356,27 @@ text-decoration: none;
 .inner h2{
 	font-size:180%;
 	color: #8AF97C;
+	color: #FDC354;
+	color: #000;
+	border-bottom: #FDC354 4px dotted;
 	font-weight: bold;
 	text-decoration: none;
-	margin-bottom: 20px;
+	//margin-bottom: 20px;
+	padding-bottom: 3px;
+	padding-top: 40px;
 }
 
 .inner p{
-	padding:0 10px;
+	padding:20px 10px;
 	font-size: 130%;
+}
+.inner a{
+	color: #000;
+	text-decoration: none;
+}
+
+.inner li:hover{
+opacity: 0.7;
 }
 
 .iicon{
