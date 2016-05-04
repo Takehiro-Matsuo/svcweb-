@@ -322,7 +322,7 @@ text-decoration: none;
 
 /*index.html*/
 
-.inner{
+.main1{
 //	width: 1050px;
 //width: 100%;
 	height: 100%;
@@ -336,7 +336,7 @@ text-decoration: none;
 	//background-color: #EFFDEA;
 }
 
-.inner li{
+.main1 li{
 	position: relative;
 	height: 445px;
 	width: 315px;
@@ -345,7 +345,7 @@ text-decoration: none;
 	border-bottom: #FDC354 4px solid;
 }
 
-.inner img{
+.main1 img{
 	border-bottom: #FDC354 10px solid;
 	//margin-bottom: 40px;
 
@@ -353,7 +353,7 @@ text-decoration: none;
 		//display:block;
 }
 
-.inner h2{
+.main1 h2{
 	font-size:180%;
 	color: #8AF97C;
 	color: #FDC354;
@@ -366,20 +366,21 @@ text-decoration: none;
 	padding-top: 40px;
 }
 
-.inner p{
+.main1 p{
 	padding:20px 10px;
 	font-size: 130%;
 }
-.inner a{
+.main1 a{
 	color: #000;
 	text-decoration: none;
 }
 
-.inner li:hover{
-opacity: 0.7;
+.main1 li:hover{
+opacity: 0.5;
+
 }
 
-.iicon{
+/*.iicon{
 	//color: #000;
 	width: 100px;
 	position:absolute;
@@ -387,7 +388,7 @@ opacity: 0.7;
 	left:215px;
 	padding-left: 30px;
 	 background:url(../img/inmark.png)left center no-repeat;
-}
+}*/
 
 #shinkan {
 	float: left;
@@ -399,13 +400,7 @@ opacity: 0.7;
 */
 }
 
-#shinkan h2{
-	/*position: absolute;
-	//top: 45%;
-//	left:38%;
-margin-bottom: 20px;*/
 
-}
 
 #igroup {
 	float: left;
@@ -416,12 +411,7 @@ margin-bottom: 20px;*/
 	//padding-bottom: 100px;*/
 }
 
-#igroup h2{
-/*	position: absolute;
-	top: 45%;
-	left:38%;
-	font-size:350%;*/
-}
+
 
 #ievent {
 	float: right;
@@ -432,12 +422,6 @@ margin-bottom: 20px;*/
 
 }
 
-#ievent h2{
-/*	position: absolute;
-	top: 45%;
-	left:38%;
-	font-size:350%;*/
-}
 
 
 #noti{
