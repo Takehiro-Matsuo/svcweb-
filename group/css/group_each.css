@@ -59,63 +59,43 @@ position: relative;
 
 /* グローバルナビゲーション
 ---------------------------*/
-#gnav_ge{
-   // float:left;
-width: 800px;
-height:400px;
-overflow: hidden;
-   //position:relative;
-   background-color:#8AF97C;
-   background-color: #FFF2D9;
+#inner_gnav{                 //よくわからない挙動が見られる
+  //background-color: #000;  //左のidを消すと、下の層も消える。
+}                            //とりあえず、見た目を直して後で考える。
 
-//	 background-color: #1BCF02;
-	 //background-color: #02D064;
-  //  border-right:#D1FCD6 3px solid;FDC354
-		border:#FDC354 3px solid;
+#gnav_ge {
+height: 300px;
+width: 100%;
+//overflow: hidden;
+background-color:#f0f;
 }
 
 #gnav_ge ul{
   //float: right;
-     //position:absolute;
-     //padding-top:165px;
-overflow: hidden;
-	width:700px;
-  height: 100px;
-//	margin:0 ;
-	background-color:#000;
-  background-color:#8AF97C;
+  //position:absolute;
+  overflow: hidden;
+	width:500px;
+  height: 60px;
+	background-color:#FBB866;
+//  background-color:#8AF97C;
 }
 
 #gnav_ge li{
-  float: left;
+  float: right;
     border-right:#CEF9C3 1px solid;
-   // margin-right:-10px;
-   // margin-left:-10px;
-}
-
-.gnav01{
-   // margin-top:180px;
-    //border-top:#CEF9C3 1px solid;
 }
 
 #gnav_ge a{
 	display:block;
-//	width:180px;
-//	height:25px;
 	font-weight:bold;
 	font-size:140%;
 	text-align:center;;
 	padding:20px 20px;
 	text-decoration:none;
-	//	background:url(../img/gnav.gif) no-repeat;
-	//	border-left:#B7F7AF 5px solid;
 	background:url(../img/mark5.png) right center no-repeat;
 	color:#fff;
 }
 
 #gnav_ge a:hover{
-    //	color:#CCE739;
-//    	background-color:#CEF9C3;
-	//background-color:#B7F7AF;
 	 background-color: #69F97C;
 }
