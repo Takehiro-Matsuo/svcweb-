@@ -1,0 +1,255 @@
+@charset "utf-8";
+/*　ヘッダー部分*/
+
+#header_sh{
+  position:relative;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+#header_sh .bg_sh{
+  opacity: 0.4;
+}
+
+#inner_sh{
+  position:absolute;
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100%;
+}
+
+#inner_sh img{
+  position: absolute;
+  top:25%;
+  //top:0;
+  left:37%;
+}
+
+#inner_sh h1 {
+  position: absolute;
+  top: 60%;
+  left:29%;
+}
+
+#inner_sh h2 {
+  position: absolute;
+  top: 73%;
+  left:35%;
+  font-size: 200%;
+  color: #6BDF20;
+}
+
+/*ローカルナビ*/
+#lnav_sh {
+  padding: 15px 186px;
+  padding-left: 250px;
+  height: 30px;
+  overflow: hidden;
+}
+
+#lnav_sh li{
+  float: left;
+  margin-right: 10px;
+  padding-right: 14px;
+  padding-top: 10px;
+  //padding: 10px;
+
+}
+
+#lnav_sh li a{
+  font-size: 110%;
+  padding-bottom: 15px;
+}
+
+
+#lnav_sh li a:link,
+#lnav_sh li a:visited {
+  color: #000;
+      text-decoration: none;
+}
+#lnav_sh  li a:hover,
+#lnav_sh li a:active {
+      color: #6BDF20;
+      border-bottom: #6BDF20 4px solid;
+      text-decoration: none;
+}
+#lnav_sh li em {
+      font-weight: bold;
+      //margin: 20px 20px 0 80px;
+
+}
+
+#lnav_sh li a em:hover,
+#lnav_sh li a em:active{
+border-bottom: none;
+
+}
+/*　導入　*/
+
+#intro_sh{
+  width: 100%;
+  height: 140px;
+  padding: 120px 240px;
+  background-color: #8AF97C;
+  opacity: 0.7;
+}
+
+#intro_sh h3{
+  margin-left: 120px;
+  font-size: 180%;
+  color: #fff;
+}
+
+#intro_sh p{
+  width: 560px;
+  margin-left: 50px;
+  font-size: 140%;
+  color: #fff;
+}
+
+/*　全体の項目設定　*/
+
+.item_sh {
+  width: 100%;
+  height: 100%;
+  padding: 100px 160px;
+}
+
+.item_sh h2{
+  width: 70%;
+  height: 30px;
+  margin-bottom: 50px;
+  padding: 10px;
+  padding-left: 14px;
+  font-size: 200%;
+  color: #1BCF02;
+  border-left: #1BCF02 14px solid;
+  border-top: #1BCF02 2px solid;
+  border-bottom: #1BCF02 2px solid;
+}
+
+/*　新社会ボランティアサークル　*/
+
+.item_sh p{/* 他に文字を入れるかサブたい入れるか決める*/
+  width: 700px;
+  margin-left: 50px;
+  font-size: 120%;
+}
+
+/*　新入生・説明会部屋　*/
+
+#room{
+  background-color: #F0FFF7;
+}
+
+#room h3{
+  margin-left: 380px;
+  margin-bottom: 30px;
+  color: #1BCF02;
+  font-size: 160%;
+
+}
+
+#room dl{
+  width: 300px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  margin-left: 300px;
+  color: #1BCF02;
+  font-size: 140%;
+}
+
+#room dt{
+  float: left;
+  clear: both;
+  margin-right: 30px;
+}
+
+#room dd{
+  float: left;
+}
+#room p{
+  margin-left: 120px;
+  margin-bottom: 50px;
+}
+
+/*　行事　*/
+
+#event_sh{
+  overflow: hidden;
+}
+
+#event_sh ul{
+  width: 100%;
+  height: 100%;
+  padding: 0px 160px;
+}
+
+#event_sh li{
+  float: left;
+  margin-left: 40px;
+  width: 370px;
+  height: 400px;
+  position: relative;
+
+}
+
+#event_sh h3{
+position: absolute;
+top:40%;
+left: 0;
+background-color: #fff;
+  color: #1BCF02;
+  border: #1BCF02 2px solid;
+  text-align: left;
+  font-size: 200%;
+}
+
+#event_sh h2{
+  width: 70%;
+  height: 30px;
+  margin-bottom: 50px;
+  padding: 10px;
+  padding-left: 14px;
+  font-size: 200%;
+  color: #1BCF02;
+  border-left: #1BCF02 14px solid;
+  border-top: #1BCF02 2px solid;
+  border-bottom: #1BCF02 2px solid;
+}
+
+.event_inner p{
+  margin-left: 0px;
+  margin-top: 20px;
+  width: 360px;
+  color: #1BCF02;
+}
+
+/*　入部までの流れ　*/
+
+#entry_sh {
+background-color: #E8FFED;
+}
+
+.entry_inner {
+  padding-bottom: 80px;
+}
+.entry_inner p{
+  margin-left: 240px;
+  margin-bottom: 15px;
+  padding: 20px;
+  width: 700px;
+  height: 50px;
+  border-radius: 280px;
+  color: #fff;
+  background-color: #80D934;
+  font-size: 120%;
+  font-weight: bold;
+
+}
+
+.entry_inner img{
+margin: 0px 0 15px 570px;
+}
