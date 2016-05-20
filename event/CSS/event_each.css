@@ -7,7 +7,7 @@
 }
 
 #main_ev img{
-//opacity: 0.7;
+
 }
 
 #about_ev{
@@ -59,7 +59,6 @@
 }
 
 #lnav_ev .pager li img{
-//background-image: url(../../common/img/left_lnav.png);
 padding-bottom: 4px;
 }
 
